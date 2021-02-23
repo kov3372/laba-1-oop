@@ -1,0 +1,9 @@
+D:\лабы ооп\2 семестр\laba-1-oop\lab1\lab1\bin\Debug\lab1.exe.config
+D:\лабы ооп\2 семестр\laba-1-oop\lab1\lab1\bin\Debug\lab1.exe
+D:\лабы ооп\2 семестр\laba-1-oop\lab1\lab1\bin\Debug\lab1.pdb
+D:\лабы ооп\2 семестр\laba-1-oop\lab1\lab1\obj\Debug\lab1.csprojAssemblyReference.cache
+D:\лабы ооп\2 семестр\laba-1-oop\lab1\lab1\obj\Debug\lab1.Form1.resources
+D:\лабы ооп\2 семестр\laba-1-oop\lab1\lab1\obj\Debug\lab1.Properties.Resources.resources
+D:\лабы ооп\2 семестр\laba-1-oop\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.cache
+D:\лабы ооп\2 семестр\laba-1-oop\lab1\lab1\obj\Debug\lab1.exe
+D:\лабы ооп\2 семестр\laba-1-oop\lab1\lab1\obj\Debug\lab1.pdb
