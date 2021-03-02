@@ -16,7 +16,14 @@ namespace lab1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+
+            //  Application.Run(new приложение_для_стоматолога());
+            //   Application.Run(new Form1());
+            //  Application.Run(new Завдання_1());
+            //   Application.Run(new Завдання_2());
+
+            Application.Run(new завдання_3());
         }
     }
 }

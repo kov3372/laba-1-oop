@@ -46,16 +46,52 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="індивідуальне завдання.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="індивідуальне завдання.Designer.cs">
+      <DependentUpon>індивідуальне завдання.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="завдання 1 %28форма 3%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="завдання 1 %28форма 3%29.Designer.cs">
+      <DependentUpon>завдання 1 %28форма 3%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Завдання 1%28форма 1%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Завдання 1%28форма 1%29.Designer.cs">
+      <DependentUpon>Завдання 1%28форма 1%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Завдання 2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Завдання 2.Designer.cs">
+      <DependentUpon>Завдання 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="завдання 3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="завдання 3.Designer.cs">
+      <DependentUpon>завдання 3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="завдання1 %28форма 2%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="завдання1 %28форма 2%29.Designer.cs">
+      <DependentUpon>завдання1 %28форма 2%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="приложение для стоматолога.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="приложение для стоматолога.Designer.cs">
+      <DependentUpon>приложение для стоматолога.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="індивідуальне завдання.resx">
+      <DependentUpon>індивідуальне завдання.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +102,24 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="завдання 1 %28форма 3%29.resx">
+      <DependentUpon>завдання 1 %28форма 3%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Завдання 1%28форма 1%29.resx">
+      <DependentUpon>Завдання 1%28форма 1%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Завдання 2.resx">
+      <DependentUpon>Завдання 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="завдання 3.resx">
+      <DependentUpon>завдання 3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="завдання1 %28форма 2%29.resx">
+      <DependentUpon>завдання1 %28форма 2%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="приложение для стоматолога.resx">
+      <DependentUpon>приложение для стоматолога.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
