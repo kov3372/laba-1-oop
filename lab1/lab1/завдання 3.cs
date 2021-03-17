@@ -25,7 +25,7 @@ namespace lab1
         private void завдання_3_Load(object sender, EventArgs e)
         {
 
-           
+          
 
         }
 
@@ -35,13 +35,32 @@ namespace lab1
             var graphics = Graphics.FromImage(bitmap);
             graphics.SmoothingMode = SmoothingMode.AntiAlias;
             graphics.FillRectangle(new SolidBrush(Color.Tomato), 15, 10, 150, 200);
-
-            
+        
             return bitmap;
         }
 
+        public Bitmap DrawAnoter()
+        {
+            var bitmap = new Bitmap(400, 200, PixelFormat.Format32bppArgb);
+            var graphics = Graphics.FromImage(bitmap);
+            graphics.SmoothingMode = SmoothingMode.AntiAlias;
+            graphics.FillRectangle(new SolidBrush(Color.Black), 15, 10, 150, 200);
+
+            return bitmap;
+        }
+
+
+
         delegate void MoveonMouse();
 
+        private void завдання_3_MouseMove(object sender, MouseEventArgs e)
+        {
+            this.pictureBox1.Image = this.DrawAnoter();
+        }
 
+        private void завдання_3_MouseLeave(object sender, EventArgs e)
+        {
+            this.pictureBox1.Image = this.Draw();
+        }
     }
 }

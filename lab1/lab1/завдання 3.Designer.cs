@@ -20,6 +20,9 @@
             base.Dispose(disposing);
         }
 
+
+
+
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -39,6 +42,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(494, 340);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.завдання_3_Load);
             // 
             // завдання_3
             // 
@@ -49,6 +53,8 @@
             this.Name = "завдання_3";
             this.Text = "завдання_3";
             this.Load += new System.EventHandler(this.завдання_3_Load);
+            this.MouseLeave += new System.EventHandler(this.завдання_3_MouseLeave);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.завдання_3_MouseMove);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
